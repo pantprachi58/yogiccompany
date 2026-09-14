@@ -64,7 +64,7 @@ export default function AboutIntro() {
             </ul>
 
             <div className="mt-4 d-flex flex-wrap gap-3">
-              <Button href="/aboutus">Know About us</Button>
+              <Button href="/aboutus">Meet the Teachers</Button>
               <Button href="/consultation" variant="outline">
                 Book a consultation
               </Button>

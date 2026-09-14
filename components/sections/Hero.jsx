@@ -10,9 +10,9 @@ import Button from "@/components/ui/Button";
 
 const slides = [
   {
-    lead: "Discover balance, harmony and",
-    accent: "Bliss",
-    text: "Rediscover wellness, one breath at a time. Ancient Indian breathing techniques and mindful postures, taught with care.",
+    lead: "Awakening Human Consciousness Through",
+    accent: "Breath & Stillness",
+    text: "Rooted in Himalayan yogic lineage. Guided practices in classical pranayama, consciousness exploration, and therapeutic restoration.",
     cta: { label: "Explore Programs", href: "/programs" },
     image: "/images/hero/hero-namaste.jpg",
     alt: "Two practitioners standing in namaste in a light, plant-filled space",
@@ -30,7 +30,7 @@ const slides = [
     lead: "Breathe. Live.",
     accent: "Love",
     text: "Flagship programmes for stress, breath capacity and sleep — guided live, adapted to you, and built to keep.",
-    cta: { label: "Book a Session", href: "/book" },
+    cta: { label: "Book a Consultation", href: "/consultation" },
     image: "/images/about/rejuvenation-banner.jpg",
     alt: "Rejuvenation — unlocking the calm within",
   },

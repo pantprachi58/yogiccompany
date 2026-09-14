@@ -52,8 +52,8 @@ export default function WhitePaperPage() {
           </Reveal>
 
           <div className="row g-5">
-            <div className="col-lg-8">
-              <div className="yc-article">
+            <div className="col-lg-8" style={{ paddingRight: "clamp(1rem, 4vw, 3.5rem)" }}>
+              <div className="yc-article" style={{ lineHeight: "1.75" }}>
                 <RichBlocks blocks={whitePaper.blocks} />
               </div>
             </div>
@@ -71,8 +71,8 @@ export default function WhitePaperPage() {
                       <Button href="/programs/breathe-life-guide" size="sm">
                         Breathe Life programme
                       </Button>
-                      <Button href="/contact" variant="outline" size="sm">
-                        Request a copy
+                      <Button href="/whitepaper.pdf" size="sm" target="_blank" rel="noopener noreferrer">
+                        Download Full White Paper (PDF)
                       </Button>
                     </div>
                   </div>

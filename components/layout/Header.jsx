@@ -39,8 +39,8 @@ export default function Header() {
             <Logo />
             <Navigation />
             <div className="yc-header__actions">
-              <Button href="/book" size="sm" className="yc-header__cta">
-                Book a Session
+              <Button href="/consultation" size="sm" className="yc-header__cta">
+                Book a Consultation
               </Button>
               <button
                 type="button"

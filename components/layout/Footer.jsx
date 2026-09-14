@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
-import { site, footerLinks } from "@/lib/site";
+import { FiMapPin, FiPhone, FiMail, FiInstagram, FiFacebook } from "react-icons/fi";
+import { site, footerLinks, socials } from "@/lib/site";
 import NewsletterForm from "@/components/forms/NewsletterForm";
 import SocialStrip from "@/components/sections/SocialStrip";
 
@@ -62,6 +62,10 @@ export default function Footer() {
       </p>
 
       <div className="yc-container">
+        <div className="text-center mb-3" style={{ color: "rgba(255,255,255,0.7)", fontSize: "0.95rem" }}>
+          {site.locationTagline}
+        </div>
+        
         <div className="yc-footer__bottom">
           <span>
             &copy; {new Date().getFullYear()} {site.legalName}. All rights reserved.
