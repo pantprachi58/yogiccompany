@@ -82,7 +82,7 @@ These have no live equivalent; they were added to complete the information archi
 | `/we-deal-with/[slug]` ×5 | A page per wellness area, each embedding its own live quiz form. |
 | `/gallery` | Lightbox gallery built from migrated Yogic Company photography. |
 | `/faq` | Combines the two live consultation FAQs with additional questions answerable from live material. |
-| `/contact` | Contact details (phone, email, Mussoorie, socials) gathered from across the live site into one page. |
+| `/contact` | Contact details (phone, email, Dehradun, socials) gathered from across the live site into one page. |
 | `/book` | Session-request form. |
 | `/privacy-policy`, `/terms` | Required policy pages; the live site had none. |
 | `/api/enquiry` | Server route every quiz posts to. |

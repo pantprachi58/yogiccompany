@@ -36,7 +36,7 @@ export const metadata = {
     "breathing techniques",
     "meditation",
     "wellness workshops",
-    "Mussoorie",
+    "Dehradun",
   ],
   alternates: { canonical: "/" },
   openGraph: {
